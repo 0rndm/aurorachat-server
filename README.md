@@ -6,8 +6,17 @@ The license, code of conduct, and security/contributing guidelines in the main r
 <br>This repository is <b>open</b> for contributions! If you'd like to, you may open a PR or an issue, contributing helps us as we develop aurorachat!
 
 <h1 align="center">How to Run the Server</h1>
+### Running AUC v6
 
-> [!WARNING]
+```
+git clone https://github.com/Unitendo/aurorachat-server.git
+cd aurorachat-server
+node server.js
+```
+
+<details>
+<summary><strong>How to run AUC v4.5</strong></summary>
+
 > Python 3.14+ may cause compatibility issues. Please use Python 3.13 or earlier.
 
 ### 1. Clone the repository
@@ -32,3 +41,4 @@ pip install flask flask-socketio flask-cors better-profanity bcrypt python-doten
 ```
 python server.py
 ```
+</details>
