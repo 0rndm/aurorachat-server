@@ -1,0 +1,21 @@
+{
+  "name": "aurorachat-server",
+  "version": "0.6.0",
+  "description": "This is the server for Aurorachat.",
+  "homepage": "https://github.com/Unitendo/aurorachat-server#readme",
+  "bugs": {
+    "url": "https://github.com/Unitendo/aurorachat-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unitendo/aurorachat-server.git"
+  },
+  "license": "MIT",
+  "author": "Unitendo",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  }
+}
